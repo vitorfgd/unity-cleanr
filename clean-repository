@@ -15,3 +15,11 @@ done
 echo "\n"
 echo -e "\e[0;32mWOULD YOU LIKE TO ERASE IT?\033[0m"
 echo "\n"
+
+for current in `cat files.txt`; do
+    find . -name $current -type f -delete
+done
+
+for current in `cat folders.txt`; do
+    find . -name "$current" -type d -exec rm -rv {} \;
+done
