@@ -1,4 +1,4 @@
-# Unity3D-Cleaner
+# Unity3D-Cleanr
 
 Run this script on your project folder and it'll look for all the useless files and delete it, saving space on your computer.
 
